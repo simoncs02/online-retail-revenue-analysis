@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data files (never commit raw data)
+data/*
+!data/.gitkeep
+
+# Secrets and credentials
+.env
+# Ignore all JSON for now: this project has no JSON to commit,
+# and service account keys are .json files
+*.json
